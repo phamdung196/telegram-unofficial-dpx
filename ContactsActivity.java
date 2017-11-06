@@ -79,6 +79,10 @@ public class ContactsActivity extends BaseFragment implements NotificationCenter
     public interface ContactsActivityDelegate {
         void didSelectContact(TLRPC.User user, String param);
     }
+	
+	  public interface ContactsActivityDelegate_dungpx {
+        void didSelectContact(TLRPC.User user, String param);
+    }
 
     public ContactsActivity(Bundle args) {
         super(args);

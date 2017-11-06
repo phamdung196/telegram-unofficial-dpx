@@ -263,6 +263,9 @@ public class ChatActivity extends BaseFragment implements NotificationCenter.Not
         public void onItemClick(View view, int position) {
             if (!actionBar.isActionModeShowed()) {
                 createMenu(view, false);
+				//dungpx add s 
+				createMenu(view, false);
+				//dungpx add e 
             }
         }
     };
