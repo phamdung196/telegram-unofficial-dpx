@@ -63,6 +63,9 @@ public class ContactsActivity extends BaseFragment implements NotificationCenter
     private SearchAdapter searchListViewAdapter;
 
     private boolean searchWas;
+	//dungpx add s
+	private boolean searchWas;
+	//dungpx add e 
     private boolean searching;
     private boolean onlyUsers;
     private boolean needPhonebook;
