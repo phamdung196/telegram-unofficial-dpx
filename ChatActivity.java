@@ -1158,6 +1158,10 @@ public class ChatActivity extends BaseFragment implements NotificationCenter.Not
 
 
         SizeNotifierFrameLayout contentView = (SizeNotifierFrameLayout) fragmentView;
+		
+		  //dungpx add s 
+		  SizeNotifierFrameLayout contentView = (SizeNotifierFrameLayout) fragmentView;
+		  //dungpx add e 
 
         contentView.setBackgroundImage(ApplicationLoader.getCachedWallpaper());
 
